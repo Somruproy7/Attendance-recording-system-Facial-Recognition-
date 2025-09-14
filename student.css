@@ -1,0 +1,152 @@
+/* Student Portal Specific Styles - Only Sidebar Background Override */
+
+/* Override only the sidebar background color */
+body.student-portal .sidebar,
+.student-portal .sidebar {
+    background: #f4f0f5 !important;
+    border-right: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+body.student-portal .sidebar h2,
+.student-portal .sidebar h2 {
+    color: #1f2937 !important;
+}
+
+body.student-portal .sidebar nav a,
+.student-portal .sidebar nav a {
+    color: #374151 !important;
+    background: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: none !important;
+    display: block !important;
+}
+
+body.student-portal .sidebar nav a:hover,
+.student-portal .sidebar nav a:hover {
+    background: none !important;
+    color: #4f46e5 !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+body.student-portal .sidebar nav a.active,
+.student-portal .sidebar nav a.active {
+    background: #6366f1 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+}
+
+/* Vertical logo styling */
+body.student-portal .sidebar .vertical-logos,
+.student-portal .sidebar .vertical-logos {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px !important;
+    margin-top: 20px !important;
+}
+
+body.student-portal .sidebar .university-logo,
+.student-portal .sidebar .university-logo {
+    width: 80px !important;
+    height: auto !important;
+}
+
+body.student-portal .sidebar .fullattend-logo,
+.student-portal .sidebar .fullattend-logo {
+    width: 70px !important;
+    height: auto !important;
+}
+
+/* Admin Portal Styles */
+body.admin-portal .sidebar,
+.admin-portal .sidebar {
+    background: #f4f0f5 !important;
+    border-right: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+body.admin-portal .sidebar h2,
+.admin-portal .sidebar h2 {
+    color: #1f2937 !important;
+}
+
+body.admin-portal .sidebar nav a,
+.admin-portal .sidebar nav a {
+    color: #374151 !important;
+    background: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: none !important;
+    display: block !important;
+}
+
+body.admin-portal .sidebar nav a:hover,
+.admin-portal .sidebar nav a:hover {
+    background: none !important;
+    color: #4f46e5 !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+body.admin-portal .sidebar nav a.active,
+.admin-portal .sidebar nav a.active {
+    background: #6366f1 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+}
+
+/* Lecturer Portal Styles */
+body.lecturer-portal .sidebar,
+.lecturer-portal .sidebar {
+    background: #f4f0f5 !important;
+    border-right: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+body.lecturer-portal .sidebar h2,
+.lecturer-portal .sidebar h2 {
+    color: #1f2937 !important;
+}
+
+body.lecturer-portal .sidebar nav a,
+.lecturer-portal .sidebar nav a {
+    color: #374151 !important;
+    background: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: none !important;
+    display: block !important;
+}
+
+body.lecturer-portal .sidebar nav a:hover,
+.lecturer-portal .sidebar nav a:hover {
+    background: none !important;
+    color: #4f46e5 !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+body.lecturer-portal .sidebar nav a.active,
+.lecturer-portal .sidebar nav a.active {
+    background: #6366f1 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 8px 16px !important;
+}
